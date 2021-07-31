@@ -25,5 +25,11 @@ describe('Fraction Equal Test', () => {
     const expected = new Fraction(1, 2);
     assert.isTrue(fraction.equal(expected));
   });
+
+  it('equal test 2', () => {
+    const fraction = new Fraction(3, 2);
+    const expected = new Fraction(1, 2);
+    /* アサーションを追加してみましょう */
+  });
 });
 
