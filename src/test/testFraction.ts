@@ -17,6 +17,13 @@ describe('Fraction Add Test', () => {
     assert.equal(result.numerator, 6);
     assert.equal(result.denominator, 7);
   });
+});
 
+describe('Fraction Equal Test', () => {
+  it('equal test 1', () => {
+    const fraction = new Fraction(1, 2);
+    const expected = new Fraction(1, 2);
+    assert.isTrue(fraction.equal(expected));
+  });
 });
 
