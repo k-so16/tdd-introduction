@@ -8,7 +8,9 @@ export class Fraction {
   }
 
   public add(fraction: Fraction): Fraction {
-    return new Fraction(3, 5);
+    const numerator = this.numerator + fraction.numerator;
+    const denominator = this.denominator;
+    return new Fraction(numerator, denominator);
   }
 }
 
