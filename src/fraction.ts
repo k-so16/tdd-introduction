@@ -12,5 +12,9 @@ export class Fraction {
     const denominator = this.denominator;
     return new Fraction(numerator, denominator);
   }
+
+  public equal(fraction: Fraction): boolean {
+    return true;
+  }
 }
 
